@@ -57,19 +57,19 @@ for i in range(m):
     n7 = (xm, yp)
     n8 = (x0, yp)
     n9 = (xp, yp)
+    if xm < 0 or xp > in_num or ym < 0 or yp > in_num:
 
-    ran_nd[n1] += 1
-    ran_nd[n2] += 1
-    ran_nd[n3] += 1
-    ran_nd[n4] += 1
-    
-    ran_nd[n6] += 1
-    ran_nd[n7] += 1
-    ran_nd[n8] += 1
-    ran_nd[n9] += 1
+        ran_nd[n1] += 1
+        ran_nd[n2] += 1
+        ran_nd[n3] += 1
+        ran_nd[n4] += 1
+        
+        ran_nd[n6] += 1
+        ran_nd[n7] += 1
+        ran_nd[n8] += 1
+        ran_nd[n9] += 1
 
     mine = (x0, y0)
     ran_nd[mine] = 100    
 
 print(ran_nd)
-
