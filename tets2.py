@@ -1,8 +1,8 @@
 import numpy as np
 
 #1
-n = int(input("맵 크기를 입력하세요: "))
-
+# n = int(input("맵 크기를 입력하세요: "))
+n = 10
 #2
 m = int(n*0.3)
 
