@@ -66,7 +66,7 @@ find_day(month, day)
 않는다.
 • 위 알고리즘을 함수로 만들고, 결과로 정렬된 리스트를 반환하도록 한다.
 """
-
+# [10, 9, 8, 7, 6, 5, 4 ,3 ,2 1]
 
 n = int(input("리스트 길이를 입력하세요 : "))
 random_list = random.sample(range(0, n), n)
